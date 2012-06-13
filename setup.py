@@ -2,7 +2,7 @@
 Flask-Stache
 ------------
 
-Flask-Stache allows Flask apps to use Mustache templates
+Simple mustache templating for Flask applications
 
 Links
 `````
@@ -16,12 +16,12 @@ from setuptools import setup
 
 setup(
     name='Flask-Stache',
-    version='0.1.0-dev',
+    version='0.1.0',
     url='https://github.com/mattupstate/flask-stache',
     license='MIT',
     author='Matthew Wright',
     author_email='matt@nobien.net',
-    description='Mustache templates for Flask apps',
+    description=__doc__,
     long_description=__doc__,
     py_modules=['flask_stache'],
     zip_safe=False,
