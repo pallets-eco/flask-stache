@@ -2,3 +2,5 @@ Flask-Stache
 ============
 
 Simple mustache templating for Flask applications
+
+Documentation: packages.python.org/Flask-Stache
