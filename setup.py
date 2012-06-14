@@ -21,7 +21,7 @@ setup(
     license='MIT',
     author='Matthew Wright',
     author_email='matt@nobien.net',
-    description=__doc__,
+    description='Simple mustache templating for Flask applications',
     long_description=__doc__,
     py_modules=['flask_stache'],
     zip_safe=False,

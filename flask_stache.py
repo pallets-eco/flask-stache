@@ -8,7 +8,6 @@ from pystache.renderer import Renderer
 
 def _get_renderer(append=None):
     append = append or []
-    app.logger.debug(append)
 
     bp = app.blueprints.get(request.blueprint, None)
 
@@ -18,7 +17,6 @@ def _get_renderer(append=None):
         path = bp.import_name.split('.') + [bp.template_folder]
         dirs = [os.path.join(*path + append)]
 
-    app.logger.debug(dirs)
     return Renderer(search_dirs=dirs)
 
 
