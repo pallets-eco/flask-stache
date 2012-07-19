@@ -1,14 +1,4 @@
-.. Flask-Stache documentation master file, created by
-   sphinx-quickstart on Mon Mar 12 15:35:21 2012.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
-Flask-Stache
-============
-
-.. module:: flask_stache
-
-Flask-Stache lets you use Mustache templates with a Flask application.
+.. include:: ../README.rst
 
 
 Contents
