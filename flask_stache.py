@@ -1,3 +1,13 @@
+# -*- coding: utf-8 -*-
+"""
+    flask_stache
+    ~~~~~~~~~~~~
+
+    Simple mustache templating for Flask applications
+
+    :copyright: (c) 2012 by Matt Wright.
+    :license: MIT, see LICENSE for more details.
+"""
 
 import os
 
@@ -28,12 +38,13 @@ def render_view(view):
     return _get_renderer().render(view)
 
 
-def render_template(template, context=None):
+def render_template(template, **context):
     """Renders a given template and context.
 
     :param template: The template name
-    :param context: The template context
+    :param context: the variables that should be available in the
+                    context of the template.
     """
     parts = template.split('/')
     renderer = _get_renderer(parts[:-1])
-    return renderer.render(renderer.load_template(parts[-1:][0]), context or {})
+    return renderer.render(renderer.load_template(parts[-1:][0]), context)

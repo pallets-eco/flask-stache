@@ -16,7 +16,7 @@ from setuptools import setup
 
 setup(
     name='Flask-Stache',
-    version='0.1.0',
+    version='0.1.1',
     url='https://github.com/mattupstate/flask-stache',
     license='MIT',
     author='Matthew Wright',

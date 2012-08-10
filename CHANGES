@@ -3,6 +3,14 @@ Flask-Stache Changelog
 
 Here you can see the full list of changes between each Flask-Stache release.
 
+Version 0.1.1
+-------------
+
+Released August 10th, 2012
+
+* Change `render_template` API to match that of Flask's `render_template` api.
+
+
 Version 0.1.0
 -------------
 
