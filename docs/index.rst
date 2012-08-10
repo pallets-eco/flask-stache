@@ -41,7 +41,7 @@ There are two methods of rendering templates when using Flask-Stache: The
 
     @app.route('/about')
     def about():
-        return render_template('about/index', { "msg": "About"})
+        return render_template('about/index', msg="About")
 
 Notice the view object named `Home` used with `render_view`. The template for 
 this view should be a file named `home.mustache` and located at the root of the 
