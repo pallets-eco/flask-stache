@@ -7,6 +7,8 @@ Simple mustache templating for Flask applications
 Links
 `````
 
+* `documentation <http://packages.python.org/Flask-Stache/>`_
+* `source <https://github.com/mattupstate/flask-stache>`_
 * `development version
   <https://github.com/mattupstate/flask-stache/raw/develop#egg=Flask-Stache-dev>`_
 
